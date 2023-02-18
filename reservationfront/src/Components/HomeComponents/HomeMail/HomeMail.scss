@@ -1,0 +1,96 @@
+.homemail{
+    width: 100%;
+    background-color:#f2f0ec ;
+    padding: 70px 0;
+    margin-bottom: 40px;
+    .homemail_width{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 6px;
+        background-color: rgba(100, 66, 34, 0.9);
+        padding: 30px 30px ;
+        h3{
+            font-size: 32px;
+        }
+        p{
+            font-size: 18px;
+        }
+        .homemail_input{
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly ;
+            gap: 10px;
+            padding-top: 24px;
+            input{
+                width: 370px;
+                height: 40px;
+                border: 0;
+                background-color: white;
+                padding-left: 14px;
+                border: 0;
+                border-radius: 13px;
+            }
+            button{
+                width: 200px;
+                height: 40px;
+                border: 0;
+                border-radius: 13px;
+                font-size: 20px;
+                background-color: rgb(03, 58, 128);
+                color: white;
+            }
+        }
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    .homemail{
+        width: 100%;
+        background-color:#f2f0ec ;
+        margin-bottom: 40px;
+        .homemail_width{
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 6px;
+            background-color: rgba(100, 66, 34, 0.9);
+            padding: 30px 30px ;
+            h3{
+                font-size: 32px;
+            }
+            p{
+                font-size: 18px;
+            }
+            .homemail_input{
+                width: 500px;
+                flex-direction: column;
+                gap: 10px;
+                padding-top: 24px;
+                input{
+                    width: 370px;
+                    height: 40px;
+                    border: 0;
+                    background-color: white;
+                    padding-left: 14px;
+                    border: 0;
+                    border-radius: 13px;
+                }
+                button{
+                    width: 200px;
+                    height: 40px;
+                    border: 0;
+                    border-radius: 13px;
+                    font-size: 20px;
+                    background-color: rgb(03, 58, 128);
+                    color: white;
+                }
+            }
+            
+        }
+    }
+}

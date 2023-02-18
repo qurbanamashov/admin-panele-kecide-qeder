@@ -1,0 +1,75 @@
+.AboutRioWeUse {
+    width: 100%;
+    background-color: #291d16;
+    .AboutRioWeUse_info {
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        .AboutRioWeUse_info_box{
+            width: 50%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 50px 20px ;
+            background-color: #291d16;
+            h3{
+                font-size: 23px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .Qulity{
+                display: flex;
+                .QulityOne{
+                    width: 80%;
+                    height: 15px;
+                    background-color: #be9874;
+                }
+                .QulityTwo{
+                    width: 20%;
+                    height: 15px;
+                    background-color: #fff;
+                }
+            }
+            .Maintenance{
+                display: flex;
+                .MaintenanceOne{
+                    width: 70%;
+                    height: 15px;
+                    background-color: #be9874;
+                }
+                .MaintenanceTwo{
+                    width: 30%;
+                    height: 15px;
+                    background-color: #fff;
+                }
+            }
+            .Managment{
+                display: flex;
+                .ManagmentOne{
+                    width: 90%;
+                    height: 15px;
+                    background-color: #be9874;
+                }
+                .ManagmentTwo{
+                    width: 10%;
+                    height: 15px;
+                    background-color: #fff;
+                }
+            }
+
+        }
+        .AboutRioWeUse_foto{
+            width: 50%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+}

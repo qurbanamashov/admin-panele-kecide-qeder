@@ -1,0 +1,34 @@
+.HomeFeatured{
+    width: 100%;
+    background-color: #f0f2f5;
+    padding: 70px 0;
+    height: 100%;
+    .HomeFeatured_width{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .HomeFeatured_imgbox{
+            width: 328px;
+            height: 250px;
+            border-radius: 14px;
+            overflow: hidden;
+            position: relative !important;
+            margin-bottom: 30px;
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+            .HomeFeatured_imgbox_text{
+                position: absolute;
+                left: 28px;
+                bottom: 35px;
+                color: white;
+            background-color: rgba(0, 53, 128, 0.3);
+            padding: 5px 5px;
+                    }
+        }
+    }
+}

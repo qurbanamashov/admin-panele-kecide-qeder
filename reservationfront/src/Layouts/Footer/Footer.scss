@@ -1,0 +1,86 @@
+footer{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("https://mediacity.co.in/riorelax/static/media/footer-bg.a14b4083746ea8d378e7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    .footer_width{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        .footer_contoct_us{
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            color: white;
+            h3{
+                font-size: 30px;
+            }
+            .footer_contact_number{
+                display: flex;
+                flex-direction: column;
+                row-gap: 7px;
+                p{
+                    font-size: 17px;
+                }
+                span{
+                    font-size: 20px;
+                }
+            }
+        }
+        .footer_navbar_menu{
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            color: azure;
+            h3{
+                font-size: 30px;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 7px;
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+        .footer_media{
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            color: rgb(0,53,128);
+            h3{
+                font-size: 30px;
+                color: white;
+            }
+            .footer_media_menu{
+                display: flex;
+                flex-direction: column;
+                row-gap: 7px;
+                .footer_icon{
+                    display: flex;
+                    align-items: center;
+                    i{
+                        font-size: 32px;
+                        padding-right: 10px;
+                    }
+                    span{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .footer_auter{
+        padding-top: 70px;
+        text-align: center;
+        span{
+            font-size: 30px;
+        }
+    }
+}

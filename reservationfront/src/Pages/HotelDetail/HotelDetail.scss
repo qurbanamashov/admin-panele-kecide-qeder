@@ -1,0 +1,151 @@
+.Detail_slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(100, 66, 38, 0.9);
+    z-index: 999;
+    i{
+        display: flex;
+        justify-content: end;
+        padding: 20px 50px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    .Silder_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        i{
+            font-size: 30px;
+            color: white;
+        }
+        img{
+            width: 80vw;
+            height: 80vh;
+        }
+    }
+
+}
+.DetailPage {
+    width: 100%;
+    background-image: url("https://mediacity.co.in/riorelax/static/media/slider_bg_01.8ac0645590509cc94f1b.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0;
+
+    .dateil_width {
+        max-width: 1300px;
+        margin: 0 auto;
+
+        
+
+        .detail_title {
+            color: white;
+            .detail_title_flex{
+                display: flex;
+                justify-content: space-between;
+            }
+            h1 {
+                font-size: 60px;
+                padding-bottom: 20px;
+            }
+
+            .detail_address {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                i {
+                    font-size: 25px;
+                }
+
+                span {
+                    font-size: 26px;
+                }
+            }
+
+            .Detail_img {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                padding-top: 60px;
+
+                .HotelImage_detail {
+                    width: 400px;
+                    height: 400px;
+                    margin-bottom: 30px;
+                    border: 8px solid white;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .detail_desc {
+                display: flex;
+                justify-content: space-between;
+
+                .detail_desc_title {
+                    width: 65%;
+                    padding: 30px 0;
+                    color: rgb(255, 255, 255);
+
+                    h3 {
+                        font-size: 25px;
+                        padding-bottom: 10px;
+                    }
+
+                    p {
+                        font-size: 30px;
+                        max-width: 600px;
+                    }
+                }
+
+                .detail_desc_price {
+                    width: 30%;
+                    padding: 30px;
+                    color: white;
+                    background-color: rgba(100, 66, 38, 0.7);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    row-gap: 10px;
+
+                    h2 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 17px;
+                    }
+
+                    h3 {
+                        font-size: 18px;
+
+                        b {
+                            font-size: 15px;
+                        }
+                    }
+
+                    button {
+                        width: 200px;
+                        height: 40px;
+                        background-color: white;
+                        border: 0;
+                        color: rgb(100, 66, 38);
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.listSearch {
+    width: 100%;
+    background-color:  rgb(247, 245, 241);
+    .listSearch_width {
+        max-width: 1300px;
+        margin: 0 auto;
+
+        .listSearch_Filter {
+            width: 30%;
+            .listSearch_Filter_box{
+                width: 90%;
+                margin: 0 auto;
+                color: white;
+                background-color: rgb(100, 66, 38);
+                padding: 20px 20px;
+                h3 {
+                    text-align: center;
+                }
+                .listSearch_item{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap:10px;
+                    margin-bottom: 20px;
+                    .listSearch_item_span{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+                        input{
+                            width: 50px;
+                        }
+                    }
+                }
+                button{
+                    width: 180px;
+                    height: 40px;
+                    font-size: 18px;
+                    border: 0;
+                    background-color: #fff;
+                    margin-left: 60px;
+                    cursor: pointer;
+                }
+            }
+           
+        }
+        .Listcard_box{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    }
+}

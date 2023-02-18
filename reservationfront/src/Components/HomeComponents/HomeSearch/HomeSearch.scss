@@ -1,0 +1,160 @@
+.section_search_data {
+    width: 100%;
+    padding: 15px 0;
+    background:#f2f0ec;
+    z-index: 100;
+    .search_data_width {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        border: 3px solid rgb(100, 66, 34);
+        padding: 20px 0;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .searchItem {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+
+            i {
+                color: lightgray;
+            }
+
+            input {
+                border: none;
+                outline: none;
+            }
+
+            span {
+                cursor: pointer;
+                color: lightgray;
+            }
+
+            .date {
+                position: absolute;
+                top: 39px;
+                left: -107px;
+                z-index: 10;
+            }
+            .options{
+                position: absolute;
+                top: 39px;
+                left: -10px;
+                background-color: white;
+                color: grey;
+                border-radius: 13px;
+                z-index: 10;
+                .openOption{
+                    width: 200px;
+                    display: flex;
+                    justify-content:space-between;
+                    margin: 10px;
+                    align-items: center;
+                    span{
+                        font-size: 20px;
+                    }
+                    .openOption_flex{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        button{
+                            width: 30px;
+                            height: 30px;
+                            font-size: 30px;
+                            border: 0;
+                             background-color: #fff;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .section_search_data {
+        width: 100%;
+        padding: 15px 0;
+        background:#f2f0ec;
+        z-index: 100;
+        .search_data_width {
+           margin-left: 10px;
+           margin-right: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+             align-items: center;
+             justify-content: center;
+            border: 3px solid rgb(100, 66, 34);
+            padding: 20px 0;
+            background-color: #fff;
+            border-radius: 10px;
+    
+            .searchItem {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                position: relative;
+                padding-bottom: 30px;
+    
+                i {
+                    color: lightgray;
+                }
+    
+                input {
+                    border: none;
+                    outline: none;
+                }
+    
+                span {
+                    cursor: pointer;
+                    color: lightgray;
+                }
+    
+                .date {
+                    position: absolute;
+                    top: 39px;
+                    left: -107px;
+                    z-index: 10;
+                }
+                .options{
+                    position: absolute;
+                    top: 39px;
+                    left: -10px;
+                    background-color: white;
+                    color: grey;
+                    border-radius: 13px;
+                    z-index: 10;
+                    .openOption{
+                        width: 200px;
+                        display: flex;
+                        justify-content:space-between;
+                        margin: 10px;
+                        align-items: center;
+                        span{
+                            font-size: 20px;
+                        }
+                        .openOption_flex{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            button{
+                                width: 30px;
+                                height: 30px;
+                                font-size: 30px;
+                                border: 0;
+                                 background-color: #fff;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
